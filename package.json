@@ -1,0 +1,28 @@
+{
+  "name": "data-oparc-atelier-final-legrainanthony",
+  "version": "1.0.0",
+  "description": "Ça y est, on connaît tout ce qu'il nous faut pour coder l'API d'O'parc de A à Z. C'est parti pour 2 jours de code et de SQL non-stop.",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/O-clock-Atome/Data-oparc-atelier-final-LegrainAnthony.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/O-clock-Atome/Data-oparc-atelier-final-LegrainAnthony/issues"
+  },
+  "homepage": "https://github.com/O-clock-Atome/Data-oparc-atelier-final-LegrainAnthony#readme",
+  "dependencies": {
+    "dotenv": "^16.0.0",
+    "express": "^4.17.3",
+    "pug": "^3.0.2"
+  }
+}
