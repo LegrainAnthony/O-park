@@ -1,19 +1,16 @@
 const express = require('express');
 const router = express.Router();
+const attractionController = require('../controllers/attractionController');
+const visitorController = require('../controllers/visitorController');
+const routerWrapper = require('../handlers/routerWrapper');
 
-router.route('/incident/:id')
-    .get(); 
-    .post();
+router.get('/init/:id', routerWrapper(visitorController.ticketNumber))
+router.get('/events', routerWrapper(attractionController.activeAttraction))
+//         .get('/bookings',visitorController.futurBooking)
 
-router.route('/incident/new')
-    .get();
-    .post();
+// router.put('/book',attractionController.requestReservation)
+
+      
 
 
-router.get('/')
-router.get('/init')
-router.get('/events')
-router.get('/bookings')
-
-router.put('/book')
 module.exports = router;

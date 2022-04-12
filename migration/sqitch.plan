@@ -2,3 +2,4 @@
 %project=opark
 
 1.DML 2022-04-11T12:28:44Z Etudiant O'clock <student@teleporter> # Structure de base de la BDD
+2.time_slots 2022-04-12T11:50:33Z Etudiant O'clock <student@teleporter> # Affiche pour chaque attraction le prochain créneau
